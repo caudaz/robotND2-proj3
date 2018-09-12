@@ -80,3 +80,15 @@ Example: roslaunch slam_project mapping.launch
 
 Example: $ roslaunch slam_project rviz.launch
 
+
+
+UDACITY provided files:
+----------------------
+https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
+kitchen_dining.world -> worlds\
+robot_slam.rviz      -> launch\config\
+rtab_run             -> src\
+rviz.launch          -> launch\
+teleop               -> src\
+
+
