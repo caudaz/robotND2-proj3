@@ -63,23 +63,26 @@ catkin_make
 executable steps for this project to see what’s going on.
 
 1) Launch the gazebo world and your robot.
-
-Example: $ roslaunch slam_project world.launch world_file:=~/catkin_ws/src/slam_project/worlds/kitchen_dining.world
+```
+roslaunch slam_project world.launch
+## $ roslaunch slam_project world.launch world_file:=~/catkin_ws/src/slam_project/worlds/kitchen_dining.world
+```
 
 2) Launch your teleop node.
-
-Example: roslaunch slam_project teleop.launch
-
+```
+roslaunch slam_project teleop.launch
+```
 Note: Here would be a good place to pause and check that the robot moves with telop and is publishing the relevant topics. If not, we will be covering debugging shortly!
 
 3) Launch your mapping node.
-
-Example: roslaunch slam_project mapping.launch
+```
+roslaunch slam_project mapping.launch
+```
 
 4) Launch Rviz.
-
-Example: $ roslaunch slam_project rviz.launch
-
+```
+roslaunch slam_project rviz.launch
+```
 
 
 UDACITY provided files:
