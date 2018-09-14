@@ -4,12 +4,6 @@
 
 ![](./media/caudaz_robotND2-proj3_x10speedup_15secs.gif)
 
-## ABSTRACT ##
-
-
-## INTRO ##
-
-
 ## INSTALLATING ROS ##
 
 1. Install ROS:
@@ -99,11 +93,35 @@ roslaunch slam_project rviz.launch
 
 ## DEBUGING ROS ##
 
+
+
+
+
+## ABSTRACT ##
+
+
+## INTRO ##
+
+
+## BACKGROUND ##
+
+
+## SCENE AND ROBOT CONFIGURATION ##
+
+
+## RESULTS ##
+
+While running ROS, the following process was used to arrive at the final 2D and 3D maps:
+
 1) rosrun tf view_frames
+
+Creates a tree representation of the frames/links and how they physically attach.
 
 ![](./media/1_rosrun_tf_view_frames.jpg)
 
 2) rqt_graph
+
+Visualizes the ROS graph with nodes and how messages are passed.
 
 ![](./media/2-rqt_graph_NODES_ONLY.png)
 
@@ -113,26 +131,38 @@ roslaunch slam_project rviz.launch
 
 3) roswtf
 
+Examines and analyzes the rqt_graph and checks for issues or errors.
+
 ![](./media/3-roswtf.png)
 
 4) rqt_console
+
+Aggregates all ROS errors based on severity and each message includes various info.
 
 ![](./media/4-rqt_console.png)
 
 5) rqt_image_view
 
+To visualize live streaming images from camera and depth sensors.
+
 ![](./media/5_rqt_image_view.png)
 
 6) rtabmap-databaseViewer ~/.ros/rtabmap.db
 
+Allows checking for loop closures, generate 3D maps for viewing, images, 2d map zones. Pink spheres are loop closures created by 2 images that have features in common.
+
 ![](./media/6_rtabmap-databaseViewer.png)
 
 
-
-## RESULTS ##
+The final maps in 2D and 3D are very recognizable:
 
 ![](./media/kitchen_RTAB1.png)
 
+
+## DISCUSSION ##
+
+
+## FUTURE WORK ##
 
 
 ## APPENDIX ##
