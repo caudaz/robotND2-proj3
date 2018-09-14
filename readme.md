@@ -10,7 +10,7 @@
 ### INTRO ###
 
 
-### INSTALLATION and INSTRUCTIONS ###
+### INSTALLATING ROS ###
 
 1. Install ROS:
 
@@ -46,7 +46,7 @@ https://classroom.udacity.com/nanodegrees/nd209/parts/dad7b7cc-9cce-4be4-876e-30
 sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 
-
+### RUNNING ROS ###
 
 CREATE CATKIN WORKSPACE
 
@@ -64,11 +64,6 @@ cd ~/catkin_ws
 catkin_make
 
 ```
-
-
-
-
-executable steps for this project to see what’s going on.
 
 1) Launch the gazebo world and your robot.
 ```
@@ -89,6 +84,9 @@ roslaunch slam_project mapping.launch
 ```
 roslaunch slam_project rviz.launch
 ```
+
+5) Grab the rtabmap.db file from the ~/.ros/ directory and visualize it using the RTAB Map Database Viewer
+
 
 
 UDACITY provided files:
