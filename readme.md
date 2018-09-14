@@ -4,13 +4,13 @@
 
 ![](./media/caudaz_robotND2-proj3_x10speedup_15secs.gif)
 
-### ABSTRACT ###
+## ABSTRACT ##
 
 
-### INTRO ###
+## INTRO ##
 
 
-### INSTALLATING ROS ###
+## INSTALLATING ROS ##
 
 1. Install ROS:
 
@@ -46,7 +46,7 @@ https://classroom.udacity.com/nanodegrees/nd209/parts/dad7b7cc-9cce-4be4-876e-30
 sudo apt-get install ros-kinetic-rtabmap-ros
 ```
 
-### RUNNING ROS ###
+## RUNNING ROS ##
 
 0) Create a Catkin workspace and download files
 
