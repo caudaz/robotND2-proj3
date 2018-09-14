@@ -92,15 +92,56 @@ roslaunch slam_project rviz.launch
 
 ## ABSTRACT ##
 
-SLAM or Simultaneous Localization and Mapping is a hot topic in the field of robotics. RTAB-Map is a SLAM algorithm that can map unknown environments while localization is also taking place. This project was built starting with the previous project (particle filters in ROS). This project was able to successfully map a small apartment like environment. 
+SLAM or Simultaneous Localization and Mapping is a hot topic in the field of robotics. Real Time Appearance 
+Based Mapping (RTAB-Map) is a SLAM algorithm that can map unknown environments while localization is also taking place. This project was built starting with the previous project (particle filters in ROS). This project was able to successfully map a small apartment like environment. 
 
 ## INTRO ##
+
+In the real world, robots have to localize and map their environments because of the unknown nautre of them.
+
+SLAM has:
+
+* a continous part: robot moving poses and measurements
+
+* a discrete part: deciding if the robot has been on that same place (corresponding problem)
+
+The main 2 SLAM algorithms used are: FastSLAM and GraphSLAM.
 
 
 ## BACKGROUND ##
 
+GraphSLAM is optimization at the core. It minimizes the error present in the constraint of the graph, applying the maximum likelihood estimation principle (MLE). It will construct a graph, define the contraints, and solve the system. It will use:
+
+* odometer
+
+* RGB-D camera (such as Kinect)
+
+* laser rangefinder
+
+On the back end it will perform loop closure detection, graph optimization, and 2D/3D map generation.
+
+An example of loop closure is shown below:
+
+![](./media/loop_closure_detection.png)
+
+RTAB-Map will result in database map files that can be read later for visualization.
+
+
 
 ## SCENE AND ROBOT CONFIGURATION ##
+
+The scene is comprised of a small apartment 3D geometry (kitchen_dining.world).
+
+The robot is comprised of:
+
+* odometer
+
+* RGBD camera
+
+For this particular model the laser sensor is simulated using the RGBD camera that converts the depth to laser like readings:
+
+![](./media/RTAB_with_simulated_RGBD_laser.png)
+
 
 
 ## RESULTS ##
@@ -154,6 +195,10 @@ The final maps in 2D and 3D are very recognizable:
 
 
 ## DISCUSSION ##
+
+The SLAM algorithm utilized is very computationally intensive. However, for an enviroment such as the kitchen world, using an Intel i7 processor, there were no delays in the processing of the loop closures and creating the maps.
+
+The point of view of the robot sensors (RGBD  and Lidar) will determine how the maps look like. 
 
 
 
