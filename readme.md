@@ -92,6 +92,7 @@ roslaunch slam_project rviz.launch
 
 ## ABSTRACT ##
 
+SLAM or Simultaneous Localization and Mapping is a hot topic in the field of robotics. RTAB-Map is a SLAM algorithm that can map unknown environments while localization is also taking place. This project was built starting with the previous project (particle filters in ROS). This project was able to successfully map a small apartment like environment. 
 
 ## INTRO ##
 
