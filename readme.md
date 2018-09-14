@@ -90,13 +90,6 @@ roslaunch slam_project rviz.launch
 5) Grab the rtabmap.db file from the ~/.ros/ directory and visualize it using the RTAB Map Database Viewer
 
 
-
-## DEBUGING ROS ##
-
-
-
-
-
 ## ABSTRACT ##
 
 
