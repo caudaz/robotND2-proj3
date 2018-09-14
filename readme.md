@@ -4,7 +4,7 @@
 
 ![](./media/caudaz_robotND2-proj3_x10speedup_15secs.gif)
 
-## INSTALLATING ROS ##
+## INSTALLATING ROS and RTAB-Map ##
 
 1. Install ROS:
 
@@ -155,7 +155,22 @@ The final maps in 2D and 3D are very recognizable:
 ## DISCUSSION ##
 
 
+
 ## FUTURE WORK ##
+
+* This project could be use to create a Robot to assist blind people. The robot would be deployed before hand to a building location where a blind person is gonna be working at and would map the environment for that person. Later that person can use a sensor that will guide him/her to the destination in the building
+
+* Perform Localization
+
+* Utilize visual odometry 
+
+* Obstacle detection
+
+* WiFi Signal Strength Mapping
+
+* Finding objects in 2D and 3D
+
+* Multisession mapping
 
 
 ## APPENDIX ##
