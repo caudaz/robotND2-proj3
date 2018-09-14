@@ -120,7 +120,7 @@ GraphSLAM is optimization at the core. It minimizes the error present in the con
 
 On the back end it will perform loop closure detection, graph optimization, and 2D/3D map generation.
 
-An example of loop closure is shown below:
+An example of loop closure is shown below (credit UDACITY):
 
 ![](./media/loop_closure_detection.png)
 
@@ -138,7 +138,7 @@ The robot is comprised of:
 
 * RGBD camera
 
-For this particular model the laser sensor is simulated using the RGBD camera that converts the depth to laser like readings:
+For this particular model the laser sensor is simulated using the RGBD camera that converts the depth to laser like readings (credit UDACITY):
 
 ![](./media/RTAB_with_simulated_RGBD_laser.png)
 
