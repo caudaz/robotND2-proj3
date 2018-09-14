@@ -67,21 +67,29 @@ catkin_make
 
 1) Launch the gazebo world and your robot.
 ```
+cd catkin_ws
+source devel/setup.bash
 roslaunch slam_project world.launch
 ```
 
 2) Launch your teleop node.
 ```
+cd catkin_ws
+source devel/setup.bash
 roslaunch slam_project teleop.launch
 ```
 
 3) Launch your mapping node.
 ```
+cd catkin_ws
+source devel/setup.bash
 roslaunch slam_project mapping.launch
 ```
 
 4) Launch Rviz.
 ```
+cd catkin_ws
+source devel/setup.bash
 roslaunch slam_project rviz.launch
 ```
 
