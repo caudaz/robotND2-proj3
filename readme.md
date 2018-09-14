@@ -128,6 +128,13 @@ roslaunch slam_project rviz.launch
 ![](./media/6_rtabmap-databaseViewer.png)
 
 
+
+## RESULTS ##
+
+![](./media/kitchen_RTAB1.png)
+
+
+
 ## APPENDIX ##
 
 UDACITY provided files:
