@@ -97,8 +97,40 @@ roslaunch slam_project rviz.launch
 
 
 
+## DEBUGING ROS ##
+
+1) rosrun tf view_frames
+
+![](./media/1_rosrun_tf_view_frames.jpg)
+
+2) rqt_graph
+
+![](./media/2-rqt_graph_NODES_ONLY.png)
+
+![](./media/2-rqt_graph_TOPICS_ACTIVE.png)
+
+![](./media/2-rqt_graph_TOPICS_ALL.png)
+
+3) roswtf
+
+![](./media/3-roswtf.png)
+
+4) rqt_console
+
+![](./media/4-rqt_console.png)
+
+5) rqt_image_view
+
+![](./media/5_rqt_image_view.png)
+
+6) rtabmap-databaseViewer ~/.ros/rtabmap.db
+
+![](./media/6_rtabmap-databaseViewer.png)
+
+
+## APPENDIX ##
+
 UDACITY provided files:
-----------------------
 https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+Resources/Student+Project+Materials.zip
 kitchen_dining.world -> worlds\
 robot_slam.rviz      -> launch\config\
