@@ -48,7 +48,7 @@ sudo apt-get install ros-kinetic-rtabmap-ros
 
 ### RUNNING ROS ###
 
-CREATE CATKIN WORKSPACE
+0) Create a Catkin workspace and download files
 
 ```
 mkdir -p ~/catkin_ws/src
