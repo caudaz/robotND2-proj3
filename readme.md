@@ -6,8 +6,7 @@
 
 ## INSTALLATING ROS and RTAB-Map ##
 
-0. 
-```diff
+0. ```diff
 - NOTE: changes made to make it work in UBUNTU18.04 and ROS-Melodic
 ```
 
