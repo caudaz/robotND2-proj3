@@ -41,6 +41,8 @@ curl -L https://s3-us-west-1.amazonaws.com/udacity-robotics/Term+2+Resources/P3+
 7- RTAB
 ```
 sudo apt-get install ros-kinetic-rtabmap-ros
+OR
+sudo apt-get install ros-melodic-rtabmap-ros
 ```
 
 ## RUNNING ROS ##
