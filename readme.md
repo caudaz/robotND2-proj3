@@ -6,7 +6,9 @@
 
 ## INSTALLATING ROS and RTAB-Map ##
 
-0. <span style="color:red">NOTE: changes made to make it work in UBUNTU18.04 and ROS-Melodic</span>
+0. ```diff
+NOTE: changes made to make it work in UBUNTU18.04 and ROS-Melodic
+```
 
 1. Install ROS:
 
