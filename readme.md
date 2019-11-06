@@ -16,6 +16,8 @@ Note: Skip this step if ROS is already installed.
 2. Install dependencies: 
 ```
 sudo apt-get install ros-kinetic-rtabmap ros-kinetic-rtabmap-ros && sudo apt-get remove ros-kinetic-rtabmap ros-kinetic-rtabmap-ros
+OR
+sudo apt-get install ros-melodic-rtabmap ros-melodic-rtabmap-ros && sudo apt-get remove ros-melodic-rtabmap ros-melodic-rtabmap-ros
 ```
 
 3. Install RTAB-Map: 
